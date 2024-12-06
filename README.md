@@ -9,6 +9,8 @@ React.js communication RESTful API webservice
     <b> ( Picture from Internet ) </b> </br>
 </p>
 
+🧸💬 With real-time statistics, source code access, reliable format, and customizable Reacts.js is one option for web applications and dashboards when communications requirements are developed single method communication makes it easier to manage both cascade stylesheet, source codes, integration method, and user accessibilities. </br>
+🐯💬 Culture INFO, in some countries stylesheets are also intellectual property of the project because they develop all their source codes and version control them, download and distribution for the same organized project is an application for some sources. Hiring one project and including source codes in another project is not an application but when resources are limited allows for the initial start project and development phase. ( Existing source codes are used for development only and they have work hours because blends from programmer experience ) </br>
 
 ```
 import '../../App.css';
