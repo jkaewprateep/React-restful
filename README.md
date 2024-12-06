@@ -15,19 +15,21 @@ React.js communication RESTful API webservice
 
 🐑💬 ➰ Hiring purchase item is an item bought with an objective and costs created from requirements, if you are copying or stealing a hiring purchase it is prohibited by laws by default, not intellectual property laws and it is covered by purchasing an item from a ```project or organization regulation```. Use of resources from the internet is published but not by individuals or organizations, accessibility is determined by your intention, and more security or difficulty in medium access such as ATM or VPN determines of intention of the actor. Simply not copy from a closed environment or use it for advertising. </br>
 🦭💬 How difficult you can have running ```application screen captures ⁉️``` 🥺💬 Not too difficult if you are running them in debugging mode, icon or task does not guarantee if to prove to it will need Tomcat or Websphere running log examine and that is used time if you required. </br>
-🐐💬 Examine date format conversion it is one example of intellectual property and it can prove the source because there is no duration diff format but you can convert to ```time-delta``` then convert format or serialize text format for output string, the moment is a good library because it has each period value for the duration, especially in hours and days. In Java because they are widely used in string format and datetime last 10 years dotnet application developer will need to create individual task that can be completed by string manipulation of Java programming function in few lines.  </br>
+🐐💬 Examine date format conversion it is one example of intellectual property and it can prove the source because there is no duration diff format but you can convert to ```time-delta``` then convert format or serialize text format for output string, the moment is a good library because it has each period value for the duration, especially in hours and days. In Java because they are widely used in string format and datetime last 10 years dotnet application developer will need to create individual tasks that can be completed by string manipulation of Java programming function in few lines.  </br>
+
+## React.js for populate information from REST API web service ##
 ```
-import '../../App.css';
-import './table.css';
+import '../../App.css';           🧸💬 Cascade style sheet
+import './table.css';             🧸💬 Cascade style sheet
 
 //
-import React, { useEffect, useState } from 'react';
-import axios from 'axios'
+import React, { useEffect, useState } from 'react';    🧸💬 Shared variables
+import axios from 'axios'                              🧸💬 Web communication library
 
 //
-import moment from 'moment-timezone';
+import moment from 'moment-timezone';                  🧸💬 Time Conversion
 
-function DateDiff(datetime) {
+function DateDiff(datetime) {                          🧸💬 Time format
     const timenow = moment(new Date());
     const newtime = moment(datetime);
     const days = moment.duration(timenow.diff(newtime)).days();
@@ -75,7 +77,7 @@ function App() {
     const [searchResults, setSearchResults] = useState([]);
     const [page01_counter, setPage01_counter] = React.useState(60);
 
-    useEffect(() => {
+    useEffect(() => {                                                    🧸💬 Listener
         // fetch all products
         const fetchOrders = async () => {
 
@@ -84,7 +86,7 @@ function App() {
 
             const interval = await setInterval(async () => {
 
-                await axios.get(url, {
+                await axios.get(url, {                                   🧸💬 Invoke webservice
                     auth: {
                         username: 'robot_1',
                         password: '1234'
@@ -97,11 +99,11 @@ function App() {
             return async () => await clearInterval(interval);
         };
         fetchOrders();
-    }, [page01_counter]);
+    }, [page01_counter]);                                                 🧸💬 Registration
 
 
     return (
-        <><div class="container">
+        <><div class="container">                                         🧸💬 Display
             User activity
             <table className='ReactTable'>
                 <tr text-align='center' colspan="4">
