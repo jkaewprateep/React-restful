@@ -14,6 +14,7 @@ React.js communication RESTful API webservice
 🦁💬 Project development has objectives that need to include ```stylesheets and UI design```, and the main functions program or individual are the main objective because they are included in most project objectives and stylesheets, seem to be a cosmetic path or have budget control, project resources had budget control but not in the objective is hiring purchase. </br>
 
 🐑💬 ➰ Hiring purchase item is an item bought with an objective and costs created from requirements, if you are copying or stealing a hiring purchase it is prohibited by laws by default, not intellectual property laws and it is covered by purchasing an item from a ```project or organization regulation```. Use of resources from the internet is published but not by individuals or organizations, accessibility is determined by your intention, and more security or difficulty in medium access such as ATM or VPN determines of intention of the actor. Simply not copy from a closed environment or use it for advertising. </br>
+🦭💬 How difficult you can have running ```application screen captures ⁉️``` 🥺💬 Not too difficult if you are running them in debugging mode, icon or task does not guarantee if to prove to need Tomcat or Websphere running log examine and that is used time if you required. </br>
 ```
 import '../../App.css';
 import './table.css';
